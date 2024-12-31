@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Denied</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #e8edea;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 1rem;
+}
+.error-container {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    padding: 3rem;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+.error-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  color:red
+}
+.error-message {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+.btn-primary {
+    display: inline-block;
+    text-decoration: none;
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 10px rgba(255, 111, 97, 0.3);
+}
+.btn-primary:hover {
+    background: #d9534f;
+    box-shadow: 0 7px 15px rgba(217, 83, 79, 0.5);
+}
+.btn-primary:focus {
+    outline: none;
+}
+@media (max-width: 768px) {
+    .error-title {
+        font-size: 4rem;
+    }
+    .error-message {
+        font-size: 1.2rem;
+    }
+    .btn-primary {
+        font-size: 0.9rem;
+        padding: 0.6rem 1.2rem;
+    }
+}.last-line{
+margin-top:10px;
+line-height:22px
+}
+    </style>
+
+    
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-title">Access Denied!</div>
+        <div class="error-message">Your request could not be completed as it was blocked by the system's protective measures.</div>
+        <a href="/" class="btn-primary">Go Back to Home</a>
+      <p class='last-line'>If this seems to be an error, we encourage you to contact the site administrator for further clarification.</p>
+    </div>
+          
+
+</body>
+</html>
